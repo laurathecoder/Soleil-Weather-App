@@ -55,3 +55,13 @@ li::first-letter {
   top: -34px;
   color: rgb(33, 33, 33);
 }
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
