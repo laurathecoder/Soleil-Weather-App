@@ -36,6 +36,7 @@
                   type="submit"
                   value="Search"
                   class="btn btn-primary w-100"
+                  id="button"
                 />
               </div>
             </div>
@@ -58,9 +59,7 @@
                 <div>
                   <strong id="temperature"></strong>
                   <span class="units">
-                    <a href="#" id="celsius-link" class="active">°C </a> |
-                    <a href="#" id="fahrenheit-link">°F</a></span
-                  >
+                    <a href="#" id="celsius-link" class="active">°C </a>
                 </div>
               </div>
             </div>
@@ -72,23 +71,10 @@
             </div>
           </div>
           <div class="weather-forecast" id="forecast">
-            <div class="row">
-              <div class="col-2">
-                <div class="weather-forecast-date">Thursday</div>
-                <img
-                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-                  width="64"
-                />
-                <div class="weather-forecast-temperature">
-                  <span class="weather-forecast-temperature-max">18° </span
-                  ><span class="weather-forecast-temperature-min">12°</span>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <small>
-          <a
+          <a id="codinglink"
             href="https://github.com/laurathecoder/Soleil-Weather-App"
             target="_blank"
             >Open-source code</a
@@ -97,6 +83,7 @@
         </small>
       </div>
     </div>
+    
     <script src="src/app.js"></script>
   </body>
 </html>
